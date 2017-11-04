@@ -27,6 +27,7 @@
 		553D41661FACEC1F0041F46B /* player2Throw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 553D415A1FACEC1F0041F46B /* player2Throw@2x.png */; };
 		553D41671FACEC1F0041F46B /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 553D415B1FACEC1F0041F46B /* player@2x.png */; };
 		553D41681FACEC1F0041F46B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 553D415C1FACEC1F0041F46B /* spark.png */; };
+		55FF1F001FAE68840042EE73 /* BuildingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF1EFF1FAE68840042EE73 /* BuildingNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		553D415A1FACEC1F0041F46B /* player2Throw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player2Throw@2x.png"; sourceTree = "<group>"; };
 		553D415B1FACEC1F0041F46B /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
 		553D415C1FACEC1F0041F46B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		55FF1EFF1FAE68840042EE73 /* BuildingNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				553D412C1FACEB870041F46B /* GameScene.sks */,
 				553D41301FACEB870041F46B /* GameScene.swift */,
 				553D41321FACEB870041F46B /* GameViewController.swift */,
+				55FF1EFF1FAE68840042EE73 /* BuildingNode.swift */,
 				553D41341FACEB870041F46B /* Main.storyboard */,
 				553D41371FACEB870041F46B /* Assets.xcassets */,
 				553D41391FACEB870041F46B /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				553D41311FACEB870041F46B /* GameScene.swift in Sources */,
+				55FF1F001FAE68840042EE73 /* BuildingNode.swift in Sources */,
 				553D41331FACEB870041F46B /* GameViewController.swift in Sources */,
 				553D412B1FACEB870041F46B /* AppDelegate.swift in Sources */,
 				553D415D1FACEC1F0041F46B /* Helper.swift in Sources */,
