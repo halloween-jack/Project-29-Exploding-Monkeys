@@ -16,6 +16,8 @@
 		553D413B1FACEB870041F46B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553D41391FACEB870041F46B /* LaunchScreen.storyboard */; };
 		553D41461FACEB870041F46B /* Project29Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553D41451FACEB870041F46B /* Project29Tests.swift */; };
 		553D415D1FACEC1F0041F46B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553D41501FACEC1F0041F46B /* Helper.swift */; };
+		554AAAE91FB08BE2006CF7AC /* hitBuilding.sks in Resources */ = {isa = PBXBuildFile; fileRef = 554AAAE71FB08B8C006CF7AC /* hitBuilding.sks */; };
+		554AAAEA1FB08BE6006CF7AC /* hitPlayer.sks in Resources */ = {isa = PBXBuildFile; fileRef = 554AAAE81FB08B8C006CF7AC /* hitPlayer.sks */; };
 		558EFD9B1FAE96D800426917 /* Assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 558EFD9A1FAE96D800426917 /* Assets.atlas */; };
 		55FF1F001FAE68840042EE73 /* BuildingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF1EFF1FAE68840042EE73 /* BuildingNode.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,8 @@
 		553D41451FACEB870041F46B /* Project29Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project29Tests.swift; sourceTree = "<group>"; };
 		553D41471FACEB870041F46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		553D41501FACEC1F0041F46B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		554AAAE71FB08B8C006CF7AC /* hitBuilding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitBuilding.sks; sourceTree = "<group>"; };
+		554AAAE81FB08B8C006CF7AC /* hitPlayer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitPlayer.sks; sourceTree = "<group>"; };
 		558EFD9A1FAE96D800426917 /* Assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Assets.atlas; sourceTree = "<group>"; };
 		55FF1EFF1FAE68840042EE73 /* BuildingNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +100,8 @@
 				558EFD9A1FAE96D800426917 /* Assets.atlas */,
 				553D41341FACEB870041F46B /* Main.storyboard */,
 				553D41371FACEB870041F46B /* Assets.xcassets */,
+				554AAAE71FB08B8C006CF7AC /* hitBuilding.sks */,
+				554AAAE81FB08B8C006CF7AC /* hitPlayer.sks */,
 				553D41391FACEB870041F46B /* LaunchScreen.storyboard */,
 				553D413C1FACEB870041F46B /* Info.plist */,
 			);
@@ -194,11 +200,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554AAAEA1FB08BE6006CF7AC /* hitPlayer.sks in Resources */,
 				553D41361FACEB870041F46B /* Main.storyboard in Resources */,
 				553D412D1FACEB870041F46B /* GameScene.sks in Resources */,
 				558EFD9B1FAE96D800426917 /* Assets.atlas in Resources */,
 				553D41381FACEB870041F46B /* Assets.xcassets in Resources */,
 				553D413B1FACEB870041F46B /* LaunchScreen.storyboard in Resources */,
+				554AAAE91FB08BE2006CF7AC /* hitBuilding.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

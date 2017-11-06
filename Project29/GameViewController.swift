@@ -61,6 +61,7 @@ class GameViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
     }
+    
 
     override var prefersStatusBarHidden: Bool {
         return true
@@ -73,13 +74,13 @@ class GameViewController: UIViewController {
             playerNumber.text = "PLYAER TWO >>>"
         }
         
-        angleSlider.isHidden = true
-        angleLabel.isHidden = true
+        angleSlider.isHidden = false
+        angleLabel.isHidden = false
         
-        velocitySlider.isHidden = true
-        velocityLabel.isHidden = true
+        velocitySlider.isHidden = false
+        velocityLabel.isHidden = false
         
-        launchButton.isHidden = true
+        launchButton.isHidden = false
     }
 
     @IBAction func angleChanged(_ sender: UISlider) {
